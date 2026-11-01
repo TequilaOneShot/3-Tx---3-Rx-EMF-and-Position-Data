@@ -18,12 +18,11 @@ Includes Data and Position files
 | Tx1 | -0.4796 | 0.7997 | 0.1325 | 179.5725 | -18.9595 | 145.3704 | 15.2993 | 37.6829 | 47.3702
 | Tx2 | -0.5863 | 0.7109 | 0.1383 | 23.9145 | 166.5116 | -27.2473 | 10.1854 | 25.5442 | 29.5400
 | Tx3 | -0.5942 | 0.8462 | 0.1363 | 150.1916 | 5.0969 | -35.7094 | 8.0319 | 19.9425 | 22.6538
-
 - Coordinate origin \[0, 0, 0\] at robot's origin
 - Trajectory (no rotation):
-  - gridnorot:
-![alt text](images/image.png)\
-  - conenorot:
-![alt text](images/image-1.png)\
-  - cylnorot:
-![alt text](images/image-2.png)\
+  - gridnorot:\
+![alt text](images/image.png)
+  - conenorot:\
+![alt text](images/image-1.png)
+  - cylnorot:\
+![alt text](images/image-2.png)

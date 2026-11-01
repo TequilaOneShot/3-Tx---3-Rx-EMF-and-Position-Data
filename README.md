@@ -22,8 +22,8 @@ Includes Data and Position files
 - Coordinate origin \[0, 0, 0\] at robot's origin
 - Trajectory (no rotation):
   - gridnorot:
-![alt text](images/image.png)
+![alt text](images/image.png)\
   - conenorot:
-![alt text](images/image-1.png)
+![alt text](images/image-1.png)\
   - cylnorot:
-![alt text](images/image-2.png)
+![alt text](images/image-2.png)\

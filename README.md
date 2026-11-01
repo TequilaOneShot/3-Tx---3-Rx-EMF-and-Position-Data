@@ -12,16 +12,18 @@ Includes Data and Position files
   - 3 columns of Rx position **\[m\]** - 3 columns of Rx Euler angle **\[deg\]**
 3. Other details
 - \[Approximate\] Tx placement after calibration: (units: mm and deg)\
-| F | Pos_X | Pos_Y | Pos_Z | Ang_X | Ang_Y | Ang_Z | k_Rx1 | k_Rx2 | k_Rx3 |
-| F | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+
+|  | Pos_X | Pos_Y | Pos_Z | Ang_X | Ang_Y | Ang_Z | k_Rx1 | k_Rx2 | k_Rx3 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Tx1 | -0.4796 | 0.7997 | 0.1325 | 179.5725 | -18.9595 | 145.3704 | 15.2993 | 37.6829 | 47.3702
 | Tx2 | -0.5863 | 0.7109 | 0.1383 | 23.9145 | 166.5116 | -27.2473 | 10.1854 | 25.5442 | 29.5400
 | Tx3 | -0.5942 | 0.8462 | 0.1363 | 150.1916 | 5.0969 | -35.7094 | 8.0319 | 19.9425 | 22.6538
+
 - Coordinate origin \[0, 0, 0\] at robot's origin
 - Trajectory (no rotation):
   - gridnorot:
-![alt text](images\image.png)
+![alt text](images/image.png)
   - conenorot:
-![alt text](images\image-1.png)
+![alt text](images/image-1.png)
   - cylnorot:
-![alt text](images\image-2.png)
+![alt text](images/image-2.png)

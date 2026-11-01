@@ -11,7 +11,7 @@ Includes Data and Position files
   - Format: `Pos_X Pos_Y Pos_Z Ang_X Ang_Y Ang_Z`
   - 3 columns of Rx position **\[m\]** - 3 columns of Rx Euler angle **\[deg\]**
 3. Other details
-- \[Approximate\] Tx placement after calibration: (units: mm and deg)
+- \[Approximate\] Tx placement after calibration: (units: mm and deg)\
 | | Pos_X | Pos_Y | Pos_Z | Ang_X | Ang_Y | Ang_Z | k_Rx1 | k_Rx2 | k_Rx3 |
 | | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Tx1 | -0.4796 | 0.7997 | 0.1325 | 179.5725 | -18.9595 | 145.3704 | 15.2993 | 37.6829 | 47.3702

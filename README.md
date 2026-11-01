@@ -8,7 +8,7 @@ Includes Data and Position files
 ## 2. Position files
 - Rx positions and angles with offset **kept**
 - Use these files when robot offset is needed
-  - Format: `Pos_X Pos_Y Pos_Z Ang_X Ang_Y Ang_Z`
+- Format: `Pos_X Pos_Y Pos_Z Ang_X Ang_Y Ang_Z`
   - 3 columns of Rx position **\[m\]** - 3 columns of Rx Euler angle **\[deg\]**
 ## 3. Other details
 - \[Approximate\] Tx placement after calibration: (units: mm and deg)

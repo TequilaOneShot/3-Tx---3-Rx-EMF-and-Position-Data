@@ -3,7 +3,7 @@ Includes Data and Position files
 ## 1. Data files
 - Files contain Rx positions and angles with offset **removed** (angle offset due to Rx mounting to robot)
 - Use these files for Tx calibration, model training and testing
-- Data format: `Rx1-Tx1 Rx1-Tx2 Rx1-Tx3 Rx2-Tx1 ... Rx3-Tx2 Rx3-Tx3 Pos_X Pos_Y Pos_Z Ang_X Ang_Y Ang_Z`
+- Format: `Rx1-Tx1 Rx1-Tx2 Rx1-Tx3 Rx2-Tx1 ... Rx3-Tx2 Rx3-Tx3 Pos_X Pos_Y Pos_Z Ang_X Ang_Y Ang_Z`
   - 9 columns of EMF data - 3 columns of Rx position **\[mm\]** - 3 columns of Rx Euler angle **\[deg\]**
 ## 2. Position files
 - Rx positions and angles with offset **kept**

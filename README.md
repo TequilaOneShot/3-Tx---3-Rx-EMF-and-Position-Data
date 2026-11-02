@@ -10,7 +10,9 @@ Includes Data and Position files
 - Use these files when robot offset is needed
 - Format: `Pos_X Pos_Y Pos_Z Ang_X Ang_Y Ang_Z`
   - 3 columns of Rx positions **\[m\]** - 3 columns of Rx Euler angle **\[deg\]**
-## 3. Other details
+## 3. calibTx code
+- Use a data file to calibrate Tx parameters: positions, orientation, scaling factor
+## 4. Other details
 - \[Approximate\] Tx parameters after calibration: (units: mm and deg)
 
 |  | Pos_X | Pos_Y | Pos_Z | Ang_X | Ang_Y | Ang_Z | k_Rx1 | k_Rx2 | k_Rx3 |

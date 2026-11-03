@@ -52,5 +52,5 @@ Format: `Rx1_Tx1 Rx1_Tx2 Rx1_Tx3 Rx2_Tx1 ... Rx3_Tx2 Rx3_Tx3 X Y Z Roll Pitch Ya
 - Trajectories:
     - Cylindrical:\
     ![alt text](images/cyl_traj.png)
-    - Conical:\
-    - Grid:\
+    - Conical: to be added
+    - Grid: to be added

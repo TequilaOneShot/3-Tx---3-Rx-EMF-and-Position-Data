@@ -1,5 +1,6 @@
 # 3 Tx - 3 Rx EMF and Pose Real Dataset
 ## 1. Data description
+Data provided in `[trajectory_name]_data.csv` files - used for calibration, model training, etc.
 Format: `Rx1_Tx1 Rx1_Tx2 Rx1_Tx3 Rx2_Tx1 ... Rx3_Tx2 Rx3_Tx3 X Y Z Roll Pitch Yaw`
 - 15 Columns:
     - 9 columns: EMF_max on Rx(i) caused by Tx(j)

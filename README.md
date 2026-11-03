@@ -35,7 +35,7 @@ Format: `Rx1_Tx1 Rx1_Tx2 Rx1_Tx3 Rx2_Tx1 ... Rx3_Tx2 Rx3_Tx3 X Y Z Roll Pitch Ya
 
 **Robot-mounting offset angles**
 \[roll_os, pitch_os, yaw_os\] = \[179.91, 0.01, 66.28\] (deg)
-- Real system:\ ![alt text](images/hardware.jpg)
+- Real system: ![alt text](images/hardware.jpg)
     - Red dot: system origin
     - Green dots: Tx centers
     - Arrows: x, y, z directional vectors of system/initial Rx orientation

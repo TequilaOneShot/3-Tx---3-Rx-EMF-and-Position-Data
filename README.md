@@ -17,13 +17,13 @@ Format: `Rx1_Tx1 Rx1_Tx2 Rx1_Tx3 Rx2_Tx1 ... Rx3_Tx2 Rx3_Tx3 X Y Z Roll Pitch Ya
 
 ## 2. Hardware description
 - System origin w.r.t robot coordinates: \[-93.81, 378.13, 66.35\] (mm)
-- Tx positions: **\[mm\]** (orientation to be added)
+- Tx positions: **\[mm\]**, **\[deg\]**
 
-| | X | Y | Z |
-| --- | --- | --- | --- |
-| Tx1 | -102.05 | 460.84 | 89.86 |
-| Tx2 | -26.68 | 346.91 | 82.74 |
-| Tx3 | -161.34 | 335.03 | 84.16 |
+| | X | Y | Z | roll | pitch | yaw |
+| --- | --- | --- | --- | --- | --- | --- |
+| Tx1 | -102.05 | 460.84 | 89.86 | 15 | 0 | 0 |
+| Tx2 | -26.68 | 346.91 | 82.74 | 0 | -15 | -30 |
+| Tx3 | -161.34 | 335.03 | 84.16 | 0 | 15 | 30 |
 
 - Rx initial orientation\
 **True normal vectors**
@@ -43,15 +43,17 @@ Format: `Rx1_Tx1 Rx1_Tx2 Rx1_Tx3 Rx2_Tx1 ... Rx3_Tx2 Rx3_Tx3 X Y Z Roll Pitch Ya
 
 ## 3. **IMPORTANT**: Removing offset from Pose values in data files
 - Position offset: subtract all Tx, Rx positions by \[-93.81, 378.13, 66.35\] (mm) (system origin w.r.t robot frame)
-- Euler angles offset: implement Rx_angle_remove_offset.py code
-    - Initial end-effector offset (seen on pendant) when Rx is not tilted: `EX_init, EY_init, EZ_init`
-    - End-effector angle (seen on pendant) at arbitrary Rx pose: `ori_in = data[:, 12:15] # from CSV file` (N_samples x 3_Ori matrix)
-    - Actual Rx's Euler angles at said pose: `ori_out` (N_samples x 3_Ori matrix)
+- Euler angles offset: implement **Rx_angle_remove_offset.py** code
+    - Initial end-effector offset (seen on pendant) when Rx is not tilted: `EX_init, EY_init, EZ_init` should be equal to \[roll_os, pitch_os, yaw_os\] (robot-mounting offset angles) 
+    - End-effector angle (seen on pendant) at arbitrary Rx pose: `ori_in = data[:, 12:15] # from CSV file` (N_samples x 3_Ori matrix) (get from .csv data)
+    - Actual Rx's Euler angles at said pose: `ori_out` (N_samples x 3_Ori matrix) (use this for further calculations)
 
 ## 4. Other details
 - Approximate Tx parameters after calibration: to be added
 - Trajectories:
     - Cylindrical:\
     ![alt text](images/cyl_traj.png)
-    - Conical: to be added
-    - Grid: to be added
+    - Conical:\
+    ![alt text](images/cone_traj.png)
+    - Grid:\
+    ![alt text](images/grid_traj.png)
